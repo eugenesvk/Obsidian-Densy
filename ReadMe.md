@@ -28,5 +28,6 @@
 ## Known issues
   - Theme is WIP and is broken in a few places, also currently unconfigurable
   - Only light version is supported
+  - Some items on a smartphone are too small and need to be excluded from `.is_mobile`
 
 ## Credits
