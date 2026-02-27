@@ -1,3 +1,9 @@
+body.is-mobile {
+  --file-margins-x: var(--size-2-1);
+  --file-margins-y: var(--size-2-1);
+  /*--size-4-6: 0px;*/
+  /*--size-4-8: 0px;*/
+}
 body {
   --anim-duration-superfast	:  30ms;
   --anim-duration-fast     	:  70ms;
