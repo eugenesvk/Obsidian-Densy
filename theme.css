@@ -289,10 +289,10 @@ body {
   /*--tab-divider-color: var(--background-modifier-border-hover);*/
   /*--tab-outline-color: var(--divider-color);*/
   /*--tab-outline-width: 1px;*/
-  --tab-curve: 6px;
+  --tab-curve: 3px;
   /*--tab-radius: var(--radius-s);*/
-  /*--tab-radius-active: 6px 6px 0 0;*/
-  /*--tab-width: 200px;*/
+  --tab-radius-active: 4px 4px 0 0;
+  --tab-width: 120px;
   /*--tab-max-width: 320px;*/
 
   /* Inline title */
