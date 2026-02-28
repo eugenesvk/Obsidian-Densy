@@ -5,6 +5,12 @@ body.is-mobile {
   /*--size-4-8: 0px;*/
 }
 body {
+  /* UI font sizes */
+  /*--font-ui-smaller	: 12px;*/
+  /*--font-ui-small  	: 13px;*/
+  /*--font-ui-medium 	: 15px;*/
+  /*--font-ui-large  	: 20px;*/
+
   --anim-duration-superfast	:  30ms;
   --anim-duration-fast     	:  70ms;
   --anim-duration-moderate 	: 140ms;
