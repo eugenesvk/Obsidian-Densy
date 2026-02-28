@@ -459,6 +459,10 @@ body > div.titlebar > div > div.titlebar-button-container.mod-right {
   /*font-size  : var(--file-header-font-size);*/
 }
 
+.workspace-ribbon {
+  border-right-width: 0px;
+}
+
 /*body > div.app-container > div.horizontal-main-container > div > div.workspace-ribbon.side-dock-ribbon.mod-left.is-collapsed > div.side-dock-actions > * {
   margin : 0px 0px 6px 0px;
   padding: 0px;
@@ -603,6 +607,12 @@ input[type='number'] {
   margin-inline-end: var(--file-folding-offset);
   font-size: var(--font-ui-small) !important;
 }
+.cm-gutter.cm-lineNumbers {
+  border-right-style  	: dotted;
+  border-right-width  	: 1px;
+  border-right-color  	: rgb(224, 224, 224);
+}
+
 .ͼ1 .cm-lineNumbers .cm-gutterElement {
   padding: 0 1px 0 0px;
   min-width: 10px;
