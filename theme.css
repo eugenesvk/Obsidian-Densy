@@ -72,6 +72,10 @@ body {
   /*--blockquote-color: inherit;*/
   /*--blockquote-background-color: transparent;*/
 
+  /* Inputs */
+  --input-height              	: 24px;
+  --input-padding             	: var(--size-2-1) var(--size-2-2);
+  --input-radius              	: 1px;
 
   /* Layout sizing - for padding and margins */
   --size-2-1 :  0px;
