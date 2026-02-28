@@ -261,10 +261,10 @@ body {
   /* File layout */
   --header-height: 24px;
   --file-line-width: 1400px;
-  /*--file-folding-offset: 24px;*/
+  --file-folding-offset: 0px;
   --file-margins: var(--file-margins-y) var(--file-margins-x);
-  --file-margins-x: var(--size-2-3);
-  --file-margins-y: var(--size-2-3);
+  --file-margins-x: var(--size-2-1);
+  --file-margins-y: var(--size-2-1);
   /*--file-header-font: var(--font-interface);*/
   --file-header-font-size: var(--font-ui-medium);
   /*--file-header-font-weight: 400;*/
@@ -594,4 +594,23 @@ input[type='number'] {
   /*padding      	: var(--input-padding);*/
   font-size      	: var(--font-ui-medium);
   /*border-radius	: var(--input-radius);*/
+}
+
+/* Narrow gutter line numbers */
+.markdown-source-view.mod-cm6 .cm-gutters {
+  color: var(--text-muted) !important;
+  margin-inline-end: var(--file-folding-offset);
+  font-size: var(--font-ui-small) !important;
+}
+.ͼ1 .cm-lineNumbers .cm-gutterElement {
+  padding: 0 1px 0 0px;
+  min-width: 10px;
+}
+.is-phone .cm-gutters {
+  /*margin-inline-start: -18px;*/
+}
+.cm-gutters .cm-active {
+  color: var(--color-cursor-blue-muted);
+  font-weight: 600;
+  background-color: var(--background-tab-hover);
 }
