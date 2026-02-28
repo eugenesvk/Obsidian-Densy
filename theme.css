@@ -525,4 +525,16 @@ https://forum.obsidian.md/t/expose-sidebar-widths-through-css-variables/51649/3
 }
 .setting-hotkey {
   padding: 0px 0px 0px 4px;
+textarea,.multi-select-container,
+input.metadata-input-text,
+input[type='date'  ],input[type='datetime-local'],
+input[type='text'  ],input[type='search'        ],
+input[type='email' ],input[type='password'      ],
+input[type='number'] {
+  /*background   	: var(--background-modifier-form-field);*/
+  /*border       	: var(--input-border-width) solid var(--background-modifier-border);*/
+  /*color        	: var(--text-normal);*/
+  /*padding      	: var(--input-padding);*/
+  font-size      	: var(--font-ui-medium);
+  /*border-radius	: var(--input-radius);*/
 }
