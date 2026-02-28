@@ -384,6 +384,12 @@ body > div.titlebar > div > div.titlebar-button-container.mod-right {
 /*.workspace-tab-header-container:after {
 }
 */
+@media (hover: hover) {
+  .workspace-tab-header-container .workspace-tab-header:not(.is-active):hover .workspace-tab-header-inner {
+    background-color: var(--background-tab-hover);
+  }
+}
+
 /*Remove window controls*/
 .is-hidden-frameless:not(.is-fullscreen):not(.mod-macos) .workspace-tabs.mod-top-right-space .workspace-tab-header-container:after {
   display: none;
