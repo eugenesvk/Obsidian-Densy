@@ -316,7 +316,7 @@ body {
   /* Text */
   /*L perceived Lightness 0–1   C Chroma from gray to the most saturated  H hue 0–360  a opacity 0–1*/
   --text-normal: var(--color-base-100);
-  --text-muted: oklch(0.22 0 0);
+  --text-muted: oklch(0.32 0 0);
   --text-faint: oklch(0.60 0 0);
 
 
