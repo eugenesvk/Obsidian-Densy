@@ -479,7 +479,6 @@ https://forum.obsidian.md/t/expose-sidebar-widths-through-css-variables/51649/3
 .tree-item-self .tree-item-icon {
   margin-inline-start: calc(-1 * var(--size-4-3));
   width: var(--size-4-4);
-  color: red;
 }
 .tree-item-self {
   /*align-items: baseline;*/
