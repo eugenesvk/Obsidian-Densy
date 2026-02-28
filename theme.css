@@ -392,10 +392,10 @@ body > div.titlebar > div > div.titlebar-button-container.mod-right {
   padding-right: var(--size-4-2);
 }
 .workspace-tab-header-inner-close-button {
-  display: none !important;
+  display: var(--densy-ui-hide-tab-close-btn) !important;
 }
 .workspace-tab-header-new-tab {
-  display: none !important;
+  display: var(--densy-ui-hide-btn) !important;
 }
 .workspace-tab-header-container,
 .workspace-tab-header-container-inner {
