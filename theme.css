@@ -523,8 +523,20 @@ https://forum.obsidian.md/t/expose-sidebar-widths-through-css-variables/51649/3
   margin : 0px !important;
   padding: 0px !important;
 }
+.setting-item {
+  margin-bottom: var(--size-2-2);
+  padding      : var(--size-2-2) var(--size-2-1) var(--size-2-2) var(--size-2-1);
+  row-gap: var(--size-2-1);
+}
+.setting-item-control {
+  padding-top: var(--size-2-2) !important;
+  /*gap: var(--size-2-2);*/
+
+}
 .setting-hotkey {
   padding: 0px 0px 0px 4px;
+}
+
 
 /*Search bar*/
 .search-row {
