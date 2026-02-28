@@ -18,7 +18,7 @@ settings:
     format       	: rgb
     default-light	: '#ffe798'
     default-dark 	: '#ffe798'
-  - id           	: tab-background-hover
+  - id           	: background-tab-hover
     title        	: 'Tab: Hovere Background Color'
     type         	: variable-themed-color
     opacity      	: true
