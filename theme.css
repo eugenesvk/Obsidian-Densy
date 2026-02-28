@@ -274,6 +274,9 @@ body {
   /*--file-header-justify: center;*/
 
   /* Tabs */
+  --densy-ui-hide-tab-close-btn	: none;
+  --densy-ui-hide-btn          	: none;
+
   /*--tab-background-active                	: oklch(0.913 0.034 246.806);*/ /*blueish*/
   --tab-background-active                  	: oklch(0.93 0.101 92.963); /*~gold #ffe798*/
   --background-tab-hover                   	: oklch(0.95 0.061 92.963); /*~goldish #fceec1*/
