@@ -525,6 +525,25 @@ https://forum.obsidian.md/t/expose-sidebar-widths-through-css-variables/51649/3
 }
 .setting-hotkey {
   padding: 0px 0px 0px 4px;
+
+/*Search bar*/
+.search-row {
+  margin: 0px 0px 0px 0px;
+}
+.search-input-container.global-search-input-container > input[type=search] {
+  padding-inline-start: 0px;
+  padding-inline-end  : 0px;
+  margin : 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  /*font-size: 14px;*/
+}
+.search-input-clear-button,
+.search-input-container.global-search-input-container::before {
+  display: none;
+}
+.input-right-decorator.clickable-icon {
+  inset-inline-end: 0px !important;
+}
 textarea,.multi-select-container,
 input.metadata-input-text,
 input[type='date'  ],input[type='datetime-local'],
