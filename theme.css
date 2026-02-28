@@ -277,6 +277,8 @@ body {
   --densy-ui-hide-tab-close-btn	: none;
   --densy-ui-hide-btn          	: none;
 
+  --color-cursor-blue                      	: oklch(0.776 0.149 226.595);
+  --color-cursor-blue-muted                	: oklch(0.550 0.149 226.595);
   /*--tab-background-active                	: oklch(0.913 0.034 246.806);*/ /*blueish*/
   --tab-background-active                  	: oklch(0.93 0.101 92.963); /*~gold #ffe798*/
   --background-tab-hover                   	: oklch(0.95 0.061 92.963); /*~goldish #fceec1*/
