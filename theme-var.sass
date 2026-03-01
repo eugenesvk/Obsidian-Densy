@@ -1,0 +1,241 @@
+body
+  /* UI font sizes */
+  /*--font-ui-smaller	: 12px;*/
+  /*--font-ui-small  	: 13px;*/
+  /*--font-ui-medium 	: 15px;*/
+  /*--font-ui-large  	: 20px;*/
+
+  --anim-duration-superfast	:  30ms
+  --anim-duration-fast     	:  70ms
+  --anim-duration-moderate 	: 140ms
+  --anim-duration-slow     	: 340ms
+  --anim-motion-smooth: cubic-bezier(0.45, 0.05, 0.55, 0.95)
+  --anim-motion-delay: cubic-bezier(0.65, 0.05, 0.36, 1)
+  --anim-motion-jumpy: cubic-bezier(0.68, -0.55, 0.27, 1.55)
+  --anim-motion-swing: cubic-bezier(0, 0.55, 0.45, 1)
+
+  --table-selection-border-radius: 0px; /*4*/
+
+  /* Bases */
+  --bases-header-border-width: 0 0 var(--border-width) 0
+  --bases-header-height: 20px
+  --bases-header-padding-start: 1px
+  --bases-header-padding-end  : 1px
+  --bases-toolbar-label-display: block
+  --bases-filter-menu-width: 520px
+  --bases-group-heading-property-size: var(--font-ui-smaller)
+  --bases-group-heading-property-weight: var(--font-normal)
+  --bases-group-heading-property-color: var(--text-muted)
+  --bases-group-heading-value-size: var(--font-smaller)
+  --bases-group-heading-value-weight: var(--font-semibold)
+  --bases-group-heading-property-display: block
+  --bases-table-container-border-width: var(--border-width)
+  --bases-table-container-border-radius: var(--radius-s)
+  --bases-table-group-background: var(--background-primary-alt)
+  --bases-table-header-weight: var(--font-weight)
+  --bases-table-header-color: var(--text-muted)
+  --bases-table-header-icon-display: flex
+  --bases-table-header-background: var(--background-primary)
+  --bases-table-header-background-hover: var(--background-modifier-hover)
+  --bases-table-header-sort-mask: linear-gradient(to left, transparent var(--size-4-6), black var(--size-4-6))
+  --bases-table-summary-background: var(--background-primary)
+  --bases-table-summary-background-hover: var(--background-modifier-hover)
+  --bases-table-border-color: var(--table-border-color)
+  --bases-table-column-border-width: var(--border-width)
+  --bases-table-group-gap: 10px
+  --bases-table-row-border-width: var(--border-width)
+  --bases-table-row-background-hover: var(--table-row-background-hover)
+  --bases-table-row-height: 30px
+  --bases-table-font-size: var(--font-smaller)
+  --bases-table-column-max-width: 300
+  --bases-table-column-min-width: 40
+  --bases-table-cell-radius-active: 2px
+  --bases-table-cell-shadow-active: 0 0 0 2px var(--background-modifier-border-focus)
+  --bases-table-cell-radius-focus: 2px
+  --bases-table-cell-shadow-focus: 0 0 0 2px var(--interactive-accent)
+  --bases-table-cell-background-active: var(--background-primary)
+  --bases-table-cell-background-disabled: var(--background-primary-alt)
+  --bases-table-cell-background-selected: var(--table-selection)
+  --bases-cards-container-background: transparent
+  --bases-cards-background: var(--background-primary)
+  --bases-cards-cover-background: var(--background-primary-alt)
+  --bases-cards-scale: 1
+  --bases-cards-line-height: 24px
+  --bases-cards-border-width: var(--border-width)
+  --bases-cards-shadow: 0 0 0 1px var(--background-modifier-border)
+  --bases-cards-shadow-hover: 0 0 0 1px var(--background-modifier-border-hover)
+  --bases-cards-font-size: var(--font-smaller)
+  /* Blockquotes */
+  --blockquote-border-thickness: 1px
+  /*--blockquote-border-color: var(--interactive-accent);*/
+  /*--blockquote-font-style: normal;*/
+  /*--blockquote-color: inherit;*/
+  /*--blockquote-background-color: transparent;*/
+
+  /* Inputs */
+  --input-height              	: 24px
+  --input-padding             	: var(--size-2-1) var(--size-2-2)
+  --input-radius              	: 1px
+
+  /* Layout sizing - for padding and margins */
+  --size-2-1 :  0px
+  --size-2-2 :  1px
+  --size-2-3 :  2px
+  --size-4-1 :  3px
+  --size-4-2 :  4px
+  --size-4-3 :  6px
+  --size-4-4 :  8px
+  --size-4-5 : 10px
+  --size-4-6 : 12px
+  --size-4-8 : 14px
+  --size-4-9 : 18px
+  --size-4-10: 20px
+  --size-4-12: 24px
+  --size-4-16: 32px
+  --size-4-18: 36px
+  /* Sidebar */
+  --sidebar-markdown-font-size: calc(var(--font-text-size) * 0.9)
+  --sidebar-tab-text-display             	: none
+  --sidebar-left-toggle-inner-width      	: 8.33%
+  --sidebar-right-toggle-inner-width     	: 8.33%
+  --sidebar-left-toggle-inner-width-open 	: 24%
+  --sidebar-right-toggle-inner-width-open	: 24%
+
+  /* Ribbon */
+  /*--ribbon-background: var(--background-secondary);*/
+  /*--ribbon-background-collapsed: var(--background-primary);*/
+  --ribbon-width: 26px
+  --ribbon-padding: var(--size-2-3) 0px 0px 0px
+
+  /* Icons */
+  --icon-l: 22px
+  --icon-l-stroke-width: 1.5px
+
+  /* File layout */
+  --header-height: 24px
+  --file-line-width: 1400px
+  --file-folding-offset: 0px
+  --file-margins: var(--file-margins-y) var(--file-margins-x)
+  --file-margins-x: var(--size-2-1)
+  --file-margins-y: var(--size-2-1)
+  /*--file-header-font: var(--font-interface);*/
+  --file-header-font-size: var(--font-ui-medium)
+  /*--file-header-font-weight: 400;*/
+  /*--file-header-background: var(--background-primary);*/
+  /*--file-header-background-focused: var(--background-primary);*/
+  /*--file-header-border: var(--border-width) solid transparent;*/
+  /*--file-header-justify: center;*/
+
+  /* Tabs */
+  --densy-ui-hide-tab-close-btn	: none
+  --densy-ui-hide-btn          	: none
+
+  --color-cursor-blue                      	: oklch(0.776 0.149 226.595)
+  --color-cursor-blue-muted                	: oklch(0.550 0.149 226.595)
+  /*--tab-background-active                	: oklch(0.913 0.034 246.806);*/ /*blueish*/
+  --tab-background-active                  	: oklch(0.93 0.101 92.963); /*~gold #ffe798*/
+  --background-tab-hover                   	: oklch(0.95 0.061 92.963); /*~goldish #fceec1*/
+  /*--tab-text-color                       	: var(--text-faint);*/
+  /*--tab-text-color-active                	: var(--text-muted);*/
+  /*--tab-text-color-focused               	: var(--text-muted);*/
+  /*--tab-text-color-focused-active        	: var(--text-muted);*/
+  /*--tab-text-color-focused-highlighted   	: var(--text-accent);*/
+  /*--tab-text-color-focused-active-current	: var(--text-normal);*/
+  --tab-font-size: var(--font-ui-medium)
+  /*--tab-font-weight: inherit;*/
+  /*--tab-container-background: var(--background-secondary);*/
+  /*--tab-divider-color: var(--background-modifier-border-hover);*/
+  /*--tab-outline-color: var(--divider-color);*/
+  /*--tab-outline-width: 1px;*/
+  --tab-curve: 3px
+  /*--tab-radius: var(--radius-s);*/
+  --tab-radius-active: 4px 4px 0 0
+  --tab-width: 120px
+  /*--tab-max-width: 320px;*/
+
+  /* Inline title */
+  --inline-title-color      	: var(--h3-color      	)
+  --inline-title-font       	: var(--h3-font       	)
+  --inline-title-line-height	: var(--h3-line-height	)
+  --inline-title-size       	: var(--h3-size       	)
+  --inline-title-style      	: var(--h3-style      	)
+  --inline-title-variant    	: var(--h3-variant    	)
+  --inline-title-weight     	: var(--h3-weight     	)
+  --inline-title-margin-bottom: 0em
+
+  /* Radiuses */
+  --radius-s: 1px
+  --radius-m: 2px
+  --radius-l: 4px
+  --radius-xl:8px
+  /* Text */
+  /*L perceived Lightness 0–1   C Chroma from gray to the most saturated  H hue 0–360  a opacity 0–1*/
+  --text-normal: var(--color-base-100)
+  --text-muted: oklch(0.32 0 0)
+  --text-faint: oklch(0.60 0 0)
+
+
+  /* Indent size */
+  --indent-size: 2
+  --indent-unit: 0.3375em; /*≝0.5625*/
+  /* Lists */
+  /*--list-indent                	: calc(var(--indent-unit) * var(--indent-size));*/
+  --list-indent-editing          	: 0.05em
+  /*--list-indent-source         	: 0;*/
+  --list-spacing                 	: 0.01em
+  /*--list-marker-color          	: var(--text-faint);*/
+  /*--list-marker-color-hover    	: var(--text-muted);*/
+  /*--list-marker-color-collapsed	: var(--text-accent);*/
+  /*--list-bullet-border         	: none;*/
+  /*--list-bullet-radius         	: 50%;*/
+  --list-bullet-size             	: 0.2em
+  /*--list-bullet-transform      	: none;*/
+  /*--list-numbered-style        	: decimal;*/
+  --list-bullet-end-padding      	: 1.0rem
+
+  /* File navigator */
+  --nav-item-size  	: var(--font-normal)
+  --nav-item-radius	: var(--radius-s   )
+  --nav-item-color 	: var(--text-muted )
+  --nav-item-background-selected: hsla(var(--color-accent-hsl), 0.15)
+  --nav-item-padding: var(--size-4-2) 0px var(--size-4-2) 0px
+  --nav-item-parent-padding: 0px
+  --nav-item-margin-bottom: var(--size-2-1)
+  /*--nav-item-children-padding-start: var(--size-2-2);*/
+  /*--nav-item-children-margin-start: var(--size-4-3);*/
+  /*--nav-tag-radius: var(--radius-s);*/
+  /*--nav-tag-color: var(--text-faint);*/
+  /*--nav-tag-color-hover: var(--text-muted);*/
+  /*--nav-tag-color-active: var(--text-muted);*/
+  /*--nav-tag-weight: var(--font-semibold);*/
+  --nav-collapse-icon-color: var(--collapse-icon-color)
+  --nav-collapse-icon-color-collapsed: var(--text-muted)
+  /* Collapse icons */
+  --collapse-icon-color: var(--text-muted)
+  --collapse-icon-color-collapsed: var(--text-accent)
+
+
+  // Metadata
+  --metadata-padding: 0
+  --metadata-gap    : 1px
+  // --metadata-background: transparent
+  // --metadata-display-reading: block
+  // --metadata-display-editing: block
+  // --metadata-max-width: none
+  // --metadata-border-color: var(--background-modifier-border)
+  // --metadata-border-radius: 0
+  // --metadata-border-width: 0
+  // --metadata-divider-color: var(--background-modifier-border)
+  // --metadata-divider-color-hover: transparent
+  // --metadata-divider-color-focus: transparent
+  // --metadata-divider-width: 0;
+
+  // Backgrounds
+  // --background-primary              	: var(--color-base-00);
+  // --background-primary-alt          	: var(--color-base-10);
+  // --background-secondary            	: var(--color-base-20);
+  // --background-modifier-hover       	: rgba(var(--mono-rgb-100), 0.067);
+  // --background-modifier-active-hover	: hsla(var(--interactive-accent-hsl), 0.1);
+  // --background-modifier-border      	: var(--color-base-30);
+  // --background-modifier-border-hover	: var(--color-base-35);
+  // --background-modifier-border-focus	: var(--color-base-40);
