@@ -1,0 +1,254 @@
+/*
+  box-shadow: 0px 0px 2px 1px oklch(0.35 0.0 0); offset-x¦y  blur¦spread-radii */
+@import theme-cfg.scss
+@import theme-cfg-var.scss
+@import theme-var.sass
+@import theme-phone.sass
+
+/*‹Side dock left*/
+.side-dock-settings,
+.side-dock-actions
+  gap: var(--size-4-4)
+
+.workspace-drawer-ribbon .side-dock-actions
+  padding: var(--size-4-2) 0
+
+
+/*clickable-icon side-dock-ribbon-action*/
+.workspace-drawer-ribbon .side-dock-ribbon-action
+  padding: 0
+
+.side-dock-settings .side-dock-ribbon-action,
+.side-dock-actions .side-dock-ribbon-action
+  margin: 0
+
+
+/*↑Titlebar*/
+body > div.titlebar > div > div.titlebar-button-container.mod-right
+  display: none
+  margin : 0px
+  padding: 0px
+
+/*.workspace-tab-header-container:after*/
+.workspace-tab-header.tappable.is-active.mod-active  /*active tab shadow*/
+  box-shadow: 0px 0px 2px 1px oklch(0.35 0.0 0); /*offset-x¦y  blur¦spread-radii*/
+  clip-path : inset(0px -5px 0px -5px)
+  /* pos/left tobring element out from edge of parent so that shadow can be seen = margin-left*/
+  /*position: relative;*/
+  /*left: 15px;*/
+
+@media (hover: hover)
+  .workspace-tab-header-container .workspace-tab-header:not(.is-active):hover .workspace-tab-header-inner
+    background-color: var(--background-tab-hover)
+
+
+
+/*Remove window controls*/
+.is-hidden-frameless:not(.is-fullscreen):not(.mod-macos) .workspace-tabs.mod-top-right-space .workspace-tab-header-container:after
+  display: none
+
+.is-hidden-frameless:not(.is-fullscreen) .workspace-tabs.mod-top-right-space .workspace-tab-header-container
+  padding-right: var(--size-4-2)
+
+.workspace-tab-header-inner-close-button
+  display: var(--densy-ui-hide-tab-close-btn) !important
+
+.workspace-tab-header-new-tab
+  display: var(--densy-ui-hide-btn) !important
+
+.workspace-tab-header-container,
+.workspace-tab-header-container-inner
+  /*margin-top : 0px !important;*/
+  /*padding-top: 0px !important;*/
+  padding: 0px 0px 0px 0px !important
+  margin : 0px 0px 0px 0px !important
+
+/*Tab label*/
+.workspace-tab-header
+  padding: 0px 0px 0px 0px !important
+  margin : 0px 0px 0px 0px !important
+
+.workspace-tab-header-inner
+  padding: 0px 0px 0px 1px !important
+  margin : 0px 0px 0px 1px !important
+
+.workspace-tab-header-inner-title
+  text-overflow: clip !important
+  color: black
+/*  flex: 1 1 auto
+  font-size  : var(--tab-font-size)
+  font-weight: var(--tab-font-weight)
+  overflow: hidden
+  text-align: left
+  text-overflow: ellipsis
+  white-space: nowrap
+  width: 100%;*/
+
+
+.view-header-title-container
+  /*font-family: var(--file-header-font);*/
+  /*font-size  : var(--file-header-font-size);*/
+
+
+.workspace-ribbon
+  border-right-width: 0px
+
+
+/*body > div.app-container > div.horizontal-main-container > div > div.workspace-ribbon.side-dock-ribbon.mod-left.is-collapsed > div.side-dock-actions > *
+  margin : 0px 0px 6px 0px
+  padding: 0px*/
+/*TBD can't design with CSS, so fix manually, not dynamic
+  https://forum.obsidian.md/t/expose-sidebar-widths-through-css-variables/51649/3*/
+.workspace-split.mod-horizontal.mod-sidedock.mod-left-split
+  max-width: 180px
+
+.tree-item.nav-file
+  /*margin-inline-start :  0px !important;*/
+  /*padding-inline-start:  0px !important;*/
+  /*margin : 0px !important;*/
+  /*padding: 0px !important;*/
+
+.tree-item-self .tree-item-icon
+  margin-inline-start: calc(-1 * var(--size-4-3))
+  width: var(--size-4-4)
+
+.tree-item-self
+  /*align-items: baseline;*/
+  /*display: flex;*/
+  /*border-radius: var(--nav-item-radius);*/
+  /*color: var(--nav-item-color);*/
+  /*font-size: var(--nav-item-size);*/
+  /*line-height: var(--line-height-tight);*/
+  /*font-weight: var(--nav-item-weight);*/
+  /*margin-bottom: var(--nav-item-margin-bottom);*/
+  /*padding: var(--nav-item-padding);*/
+  /*position: relative;*/
+
+/*Left collapsible file panel*/
+.workspace-drawer-active-tab-container .workspace-drawer-active-tab-content .nav-files-container
+  /*padding-top: var(--size-4-2);*/
+
+.nav-header
+  padding: var(--size-4-1) 0px var(--size-4-1) 0px
+
+.nav-files-container
+  /*display: none;*/
+  /*flex-grow: 1;*/
+  /*overflow-y: auto;*/
+  /*overflow-x: hidden;*/
+  /*padding: var(--size-4-1) var(--size-4-3) var(--size-4-6) var(--size-4-3);*/
+  /*padding-bottom: max(var(--safe-area-inset-bottom), var(--size-4-6));*/
+  /*scroll-padding-block: var(--size-4-2);*/
+
+
+/*input[type=checkbox]
+  -webkit-appearance: none
+  appearance: none
+  border-radius: var(--checkbox-radius)
+  border: 1px solid var(--checkbox-border-color)
+  flex-shrink: 0
+  padding: 0
+  margin: 0
+  margin-inline-end: 16px
+  width: var(--checkbox-size)
+  height: var(--checkbox-size)
+  position: relative
+  transition: box-shadow 0.15s ease-in-out*/
+
+
+/* Main Note View */
+.metadata-container
+  margin-block-end: 0rem
+  /*--input-height: var(--metadata-input-height);*/
+/*  border-radius: var(--metadata-border-radius)
+  background-color: var(--metadata-background)
+  border-color: var(--metadata-border-color)
+  border-style: solid
+  border-width: var(--metadata-border-width)
+  padding: var(--metadata-padding)
+  color: var(--text-muted)
+  position: relative
+  max-width: var(--metadata-max-width);*/
+
+.markdown-source-view.mod-cm6.is-readable-line-width .cm-sizer
+  max-width   : var(--file-line-width)
+  margin-left : auto
+  margin-right: auto
+
+
+.setting-group .setting-item
+  border-top: none
+  margin : 0px !important
+  padding: 0px !important
+
+.setting-item
+  margin-bottom: var(--size-2-2)
+  padding      : var(--size-2-2) var(--size-2-1) var(--size-2-2) var(--size-2-1)
+  row-gap: var(--size-2-1)
+
+.setting-item-control
+  padding-top: var(--size-2-2) !important
+  /*gap: var(--size-2-2);*/
+
+
+.setting-hotkey
+  padding: 0px 0px 0px 4px
+
+
+
+/*Search bar*/
+.search-row
+  margin: 0px 0px 0px 0px
+
+.search-input-container.global-search-input-container > input[type=search]
+  padding-inline-start: 0px
+  padding-inline-end  : 0px
+  margin : 0px 0px 0px 0px
+  padding: 0px 0px 0px 0px
+  /*font-size: 14px;*/
+
+.search-input-clear-button,
+.search-input-container.global-search-input-container::before
+  display: none
+
+.input-right-decorator.clickable-icon
+  inset-inline-end: 0px !important
+
+textarea,.multi-select-container,
+input.metadata-input-text,
+input[type='date'  ],input[type='datetime-local'],
+input[type='text'  ],input[type='search'        ],
+input[type='email' ],input[type='password'      ],
+input[type='number']
+  /*background   	: var(--background-modifier-form-field);*/
+  /*border       	: var(--input-border-width) solid var(--background-modifier-border);*/
+  /*color        	: var(--text-normal);*/
+  /*padding      	: var(--input-padding);*/
+  font-size      	: var(--font-ui-medium)
+  /*border-radius	: var(--input-radius);*/
+
+
+/* Narrow gutter line numbers */
+.markdown-source-view.mod-cm6 .cm-gutters
+  color: var(--text-muted) !important
+  margin-inline-end: var(--file-folding-offset)
+  font-size: var(--font-ui-small) !important
+
+.cm-gutter.cm-lineNumbers
+  border-right-style	: dotted
+  border-right-width	: 1px
+  border-right-color	: rgb(224, 224, 224)
+
+
+.ͼ1 .cm-lineNumbers .cm-gutterElement
+  padding: 0 1px 0 0px
+  min-width: 10px
+
+.is-phone .cm-gutters
+  /*margin-inline-start: -18px;*/
+
+.cm-gutters .cm-active
+  color: var(--color-cursor-blue-muted)
+  font-weight: 600
+  background-color: var(--background-tab-hover)
+
