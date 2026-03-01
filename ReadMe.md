@@ -20,7 +20,7 @@
   - ↓Toolbar ![Densy↓](./img/Densy↓.png)
 
 ## Build
-  Use [sass](https://sass-lang.com) and run `sass ./theme.sass ./theme.css --no-embed-source-map --no-embed-sources`
+  Use [sass](https://sass-lang.com) and run `sass ./src/theme.sass ./theme.css --no-embed-source-map --no-embed-sources`
 
 ## Install
   - theme: `Options` → `Appearance` → `Themes` → `Manage` → type **Densy** → `Install and use`
