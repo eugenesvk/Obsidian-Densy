@@ -57,6 +57,23 @@ settings:
     type     	: heading
     level    	: 3
     collapsed	: true
+
+  - id       	: densy≝vars-indent
+    title    	: Indent
+    type     	: heading
+    level    	: 4
+    collapsed	: true
+  - id       	: indent-size
+    title    	: 'indent-size  ≝ 4'
+    type     	: variable-number
+    default  	: 2
+    format   	: px
+  - id       	: indent-unit
+    title    	: 'indent-unit  ≝ 0.5625'
+    type     	: variable-number
+    default  	: 0.3375
+    format   	: em
+
   - id       	: densy≝vars-size
     title    	: Layout sizing — for padding and margins
     type     	: heading
