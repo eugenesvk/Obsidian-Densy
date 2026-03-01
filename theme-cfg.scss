@@ -1,0 +1,45 @@
+/* @settings
+  name: Densy Theme
+  id  : densy-theme
+  collapsed: false
+  settings:
+    - id           	: densy-tab
+      title        	: Tabs
+      type         	: heading
+      level        	: 3
+      collapsed    	: true
+    - id           	: tab-background-active
+      title        	: 'Tab: Active Background Color'
+      type         	: variable-themed-color
+      opacity      	: true
+      format       	: rgb
+      default-light	: '#ffe798'
+      default-dark 	: '#ffe798'
+    - id           	: background-tab-hover
+      title        	: 'Tab: Hovere Background Color'
+      type         	: variable-themed-color
+      opacity      	: true
+      format       	: rgb
+      default-light	: '#fceec1'
+      default-dark 	: '#fceec1'
+
+    - id       	: densy-hide
+      title    	: Hide UI elements
+      type     	: heading
+      level    	: 3
+      collapsed	: true
+    - id       	: densy-ui-hide-tab-close-btn
+      title    	: 'UI: Tab Close button ×'
+      type     	: variable-select
+      default  	: none
+      options  	:
+        - none
+        - flex
+    - id     	: densy-ui-hide-btn
+      title  	: 'UI: Hide new tab +'
+      type   	: variable-select
+      default	: none
+      options	:
+        - none
+        - flex
+*/
