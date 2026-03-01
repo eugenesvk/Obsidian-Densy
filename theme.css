@@ -344,6 +344,24 @@ body {
   --text-faint: oklch(0.60 0 0);
 
 
+  /* Indent size */
+  --indent-size: 2;
+  --indent-unit: 0.3375em; /*≝0.5625*/
+  /* Lists */
+  /*--list-indent                	: calc(var(--indent-unit) * var(--indent-size));*/
+  --list-indent-editing          	: 0.05em;
+  /*--list-indent-source         	: 0;*/
+  --list-spacing                 	: 0.01em;
+  /*--list-marker-color          	: var(--text-faint);*/
+  /*--list-marker-color-hover    	: var(--text-muted);*/
+  /*--list-marker-color-collapsed	: var(--text-accent);*/
+  /*--list-bullet-border         	: none;*/
+  /*--list-bullet-radius         	: 50%;*/
+  --list-bullet-size             	: 0.2em;
+  /*--list-bullet-transform      	: none;*/
+  /*--list-numbered-style        	: decimal;*/
+  --list-bullet-end-padding      	: 1.0rem;
+
   /* File navigator */
   --nav-item-size  	: var(--font-normal);
   --nav-item-radius	: var(--radius-s   );
