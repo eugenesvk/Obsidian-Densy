@@ -162,6 +162,11 @@ body.is-mobile {
   /*--size-4-6: 0px;*/
   /*--size-4-8: 0px;*/
 }
+.is-phone .menu-item { /* make menus taller */
+  padding-top   	: var(--size-4-5) !important;
+  padding-bottom	: var(--size-4-5) !important;
+}
+
 body {
   /* UI font sizes */
   /*--font-ui-smaller	: 12px;*/
