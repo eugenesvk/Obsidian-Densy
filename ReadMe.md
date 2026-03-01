@@ -19,6 +19,9 @@
   - ↖Main area ![Densy↖](./img/Densy↖.png)
   - ↓Toolbar ![Densy↓](./img/Densy↓.png)
 
+## Build
+  Use [sass](https://sass-lang.com) and run `sass ./theme.sass ./theme.css --no-embed-source-map --no-embed-sources`
+
 ## Install
   - theme: `Options` → `Appearance` → `Themes` → `Manage` → type **Densy** → `Install and use`
     - or copy [manifest.json](./manifest.json) [theme.css](./theme.css) files to your vault's `.obsidian/themes/Densy` folder and then enable the theme in settings 
