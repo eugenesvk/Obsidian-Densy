@@ -648,9 +648,9 @@ input[type='number'] {
   font-size: var(--font-ui-small) !important;
 }
 .cm-gutter.cm-lineNumbers {
-  border-right-style  	: dotted;
-  border-right-width  	: 1px;
-  border-right-color  	: rgb(224, 224, 224);
+  border-right-style	: dotted;
+  border-right-width	: 1px;
+  border-right-color	: rgb(224, 224, 224);
 }
 
 .ͼ1 .cm-lineNumbers .cm-gutterElement {
